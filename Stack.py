@@ -37,12 +37,13 @@ def reverse_string(str):
     
     for i in range(0,length):
         stack.push(str[i])
-
+    
     string = ''
     while stack.is_empty()==False:
         string+=stack.pop()
+    
     return string
 
-print(reverse_string("buggy"))
+print(reverse_string("AnnaLouise"))
 
 
